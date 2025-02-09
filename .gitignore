@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with 'go test -c'
+*.test
+
+# Go coverage file
+*.out
+
+# Binary produced by Go build
+/microservice
+
+# Dependency directory (remove the comment below if you are using vendor)
+/vendor/
+
+# Environment files
+.env
+.env.*
+
+# Docker image archive
+image.tar
+
+# IDE or Editor folders
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
