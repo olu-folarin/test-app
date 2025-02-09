@@ -14,6 +14,9 @@
 # Binary produced by Go build
 /microservice
 
+# Ignore binary produced by 'go build' that may have the same name as the project directory
+go-microservice
+
 # Dependency directory (remove the comment below if you are using vendor)
 /vendor/
 
